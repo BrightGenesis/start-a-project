@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f0f0f0;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 7vh;
+    color: white;
+    font-size: 2vh;
+    background-color: #68cdd5;
+    text-align: center;
+}
+
+
+/*关闭，登录，注册*/
+.close, .login, .enroll {
+    display: inline-block;
+    line-height: 7vh;
+}
+
+.close {
+    float: left;
+    margin-left:2vh;
+}
+
+.login {
+    font-size: 3vh;
+}
+
+.enroll {
+    float: right;
+    margin-right: 2vh;
+}
+
+
+/*输入框*/
+.inputbox {
+    width: 100vw;
+    height: 8vh;
+    margin-top: 2vh;
+    background-color: #ffffff;
+}
+
+
+/*小图标*/
+.icon {
+    float: left;
+    height: 4vh;
+    margin: 2vh 3vh 3vh 3vh;
+    padding-right: 3vh;
+    border-right: 1px solid lightgray; /*竖线*/
+
+}
+
+  
+/*设置表单*/
+input {
+    display: inline-block;
+    height: 8vh;
+    text-align: -webkit-left;
+    border: 0; /*去除阴影边框*/
+    outline-style: none; /*去除选中时的边框*/
+}
+
+/*表单内的字体*/
+input::-webkit-input-placeholder {
+    color: lightgray;font-size: 2vh;
+}
+
+
+.footer {
+    width: 100vw;
+    height: 8vh;
+    font-size: 3vh;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: #68cdd5;
+    margin-top: 2vh;
+}
+
+/*忘记密码*/
+.last {
+    margin: 1vh 1vh 0 0;
+    text-align: right;
+    color: #68cdd5;
+    font-size: 2vh;
+}  
+  
+   
+     
+  
+  
+  
+  
+  
