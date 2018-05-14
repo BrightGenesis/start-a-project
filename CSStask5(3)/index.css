@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin:0;
+}
+html {
+    font-size: 62.5%;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    min-width: 252px;
+    line-height: 4rem;
+    color: white;
+    background-color: #5fc0cd;
+}
+header a img {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    height: 2rem;
+}
+header>p {
+    font-size: 1.8rem;
+    text-align: center;
+}
+section {
+    width: 100vw;
+    min-width: 252px;
+    overflow: auto;
+    padding-top: 4rem;
+    padding-bottom: 5.5rem ;
+}
+.top {
+    height: 14rem;
+    background-image: url("img/csstask5bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.head-portrait {
+    display: inline-block;
+    line-height: 14rem;
+}
+.head-portrait>img {
+    width: 7rem;
+    height: 7rem;
+    max-width: 100vw;
+    margin: 0 2rem;
+    vertical-align: middle;
+}
+.name-adress {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+.name {
+    font-size: 1.6rem;
+}
+.adress {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    line-height: 1rem;
+}
+.adress>img {
+    height: 1.2rem;
+    width: 1rem;
+    max-width: 100vw;
+}
+.skill {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 1rem 0;
+    border-bottom: 1px solid lightgray;
+}
+.bluelines {
+    margin: 0 0.5rem;
+    border-right:3px solid #5fc0cd;
+}
+ul {
+    font-size: 1.4rem;
+}
+li {
+    display: flex;
+    align-items: center;
+    margin:0 1rem;
+    padding: 1rem 0;
+    list-style: none;
+    border-bottom: 1px solid lightgray;
+}
+.star {
+    vertical-align: center;
+    height: 1.2rem;
+    width: 1.2rem;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 0.2rem;
+}
+.left {
+    color: darkgrey;
+    white-space: nowrap;
+    padding: 0 1rem;
+    margin-right: 1rem;
+    border-right: 1px solid lightgray;
+}
+.right {
+    padding-left: 1rem;
+}
+.time {
+    color: red;
+}
+.personserve {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    font-size: 1.4rem;
+}
+.serve {
+    display: inline-block;
+    position: absolute;
+    padding: 1.5rem 1rem;
+}
+.text-color2 {
+    color: darkgrey;
+    margin: 1.5rem 0 1.5rem 1rem;
+    padding-right: 1.1rem;
+    border-right: 1px solid lightgray;
+    float: left;
+}
+
+footer {
+    width: 100vw;
+    min-width: 252px;
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+}
+.box-message {
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #5fc0cd;
+    margin: 1rem 0.5rem 1rem 1rem;
+    flex: 1 1 1rem;
+}
+.box-message a {
+    color: #5fc0cd;
+    text-decoration: none;
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+.box-call {
+    background-color: #5fc0cd;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #5fc0cd;
+    margin: 1rem 1rem 1rem 0.5rem;
+    flex: 1 1 1rem;
+}
+.box-call a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
