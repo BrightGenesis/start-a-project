@@ -106,7 +106,7 @@ li {
     border-right: 1px solid lightgray;
 }
 .right {
-    padding-left: 1rem;
+    padding-right: 0.5rem;
 }
 .time {
     color: red;
